@@ -108,9 +108,9 @@ const Play = () => {
       else setGameStatus('Draw');
     } else if (g.isCheck()) {
       setGameStatus(g.turn() === 'w' ? 'White is in check!' : 'Black is in check!');
-    } else {Debendranath
-      setGameStatus(g.turn() === 'w' ? "White's turn" : "Black's turn");
-    }
+   } else {
+  setGameStatus(g.turn() === 'w' ? "White's turn" : "Black's turn");
+}
   }, []);
 
   useEffect(() => {
