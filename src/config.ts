@@ -46,34 +46,34 @@ export const config = {
         }
     ],
     projects: [
-        {
-            id: 1,
-            title: "My Project",
-            category: "",
-            technologies: "",
-            image: "",
-            description: "Placeholder — project details to be added.",
-            link: ""
-        },
-        {
-            id: 2,
-            title: "My Project",
-            category: "",
-            technologies: "",
-            image: "",
-            description: "Placeholder — project details to be added.",
-            link: ""
-        },
-        {
-            id: 3,
-            title: "My Project",
-            category: "",
-            technologies: "",
-            image: "",
-            description: "Placeholder — project details to be added.",
-            link: ""
-        }
-    ],
+    {
+        id: 1,
+        title: "DairyMart",
+        category: "Full-Stack Web Application",
+        technologies: "React, TypeScript, Vite, Django REST Framework, PostgreSQL, Firebase",
+        image: "/images/dairymart.png",
+        description: "A full-stack dairy e-commerce and local delivery platform featuring product browsing, authentication, cart, orders, delivery workflows, and a production PostgreSQL backend.",
+        link: "https://dairy-mart-frontend.vercel.app/"
+    },
+    {
+        id: 2,
+        title: "SAM AI Assistant",
+        category: "AI Application",
+        technologies: "Python, Django, AI, LLM",
+        image: "",
+        description: "AI assistant project focused on voice interaction, automation, and intelligent application workflows.",
+        link: ""
+    },
+    {
+        id: 3,
+        title: "MausamAI",
+        category: "AI Weather Application",
+        technologies: "React, TypeScript, Weather API",
+        image: "",
+        description: "AI-focused weather application providing weather information through a modern web interface.",
+        link: ""
+    }
+],
     contact: {
         email: "malikdebendra794@gmail.com",
         phone: "tel:+918926384722",
