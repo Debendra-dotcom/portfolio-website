@@ -66,9 +66,21 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          DM
-        </a>
+        <a
+  href="https://www.linkedin.com/in/debendra-nath-malik-930039313/"
+  className="navbar-title profile-nav"
+  data-cursor="disable"
+>
+  <img
+    src="/images/mypic.jpeg"
+    alt="Debendranath Malik"
+    className="profile-nav-image"
+  />
+  <span className="profile-nav-info">
+    <span className="profile-nav-name">Debendranath Malik</span>
+    <span className="profile-nav-role">AI Application Developer</span>
+  </span>
+</a>
         <a
           href="mailto:malikdebendra794@gmail.com"
           className="navbar-connect"

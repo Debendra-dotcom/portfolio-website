@@ -81,3 +81,72 @@
     font-size: 18px;
   }
 }
+/* Profile-style navbar button */
+.profile-nav {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.profile-nav-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-nav-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.profile-nav-name {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.profile-nav-role {
+  margin-top: 4px;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.profile-nav:hover .profile-nav-image {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(190, 140, 255, 0.45);
+}
+
+@media only screen and (max-width: 499px) {
+  .profile-nav-info {
+    display: none;
+  }
+
+  .profile-nav-image {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-nav-image {
+    width: 44px;
+    height: 44px;
+  }
+
+  .profile-nav-name {
+    font-size: 14px;
+  }
+}
