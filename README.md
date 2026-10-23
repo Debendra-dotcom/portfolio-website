@@ -1,99 +1,124 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+# 🚀 3D Developer Portfolio
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
+A modern, interactive 3D developer portfolio built with React, TypeScript, Three.js and Vite. This project showcases a creative approach to web development through 3D visuals, animations and responsive design.
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
+## 🌐 Live Demo
 
-> Live preview: https://www.redoyanulhaque.me/
+[Visit My Portfolio](https://portfolio-website-beryl-nine-46.vercel.app/)
 
----
+## ✨ Features
 
-## ✨ Highlights
+- Interactive 3D graphics using Three.js
+- React-based component architecture
+- TypeScript for type-safe development
+- Animated user interface with GSAP
+- Responsive design for different screen sizes
+- Modern web technologies and reusable components
 
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+## 🛠️ Tech Stack
 
----
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| TypeScript | Type-safe JavaScript |
+| Three.js | 3D graphics |
+| React Three Fiber | Three.js integration with React |
+| GSAP | Animations |
+| Vite | Development server and build tool |
+| CSS | Styling and layout |
 
-## 🧰 Tech Stack
+## 📂 Project Structure
 
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+```text
+portfolio-website/
+├── public/              # Public assets
+├── src/
+│   ├── assets/          # Project assets
+│   ├── components/      # Reusable UI components
+│   ├── context/         # Shared application context
+│   ├── data/            # Project data
+│   ├── pages/           # Page components
+│   ├── utils/           # Utility functions
+│   ├── App.tsx          # Main application
+│   ├── config.ts        # Application configuration
+│   ├── App.css          # Application styles
+│   ├── index.css        # Global styles
+│   └── main.tsx         # Application entry point
+├── index.html
+├── package.json
+├── vite.config.ts
+└── README.md
+```
 
----
+## 💻 Run Locally
 
-## 🚀 Getting Started
+### Prerequisites
 
-### 1) Clone
+- Node.js and npm
+- Git
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
+git clone https://github.com/Debendra-dotcom/portfolio-website.git
 cd portfolio-website
 ```
 
-### 2) Install
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3) Run locally
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 4) Build
+Open the local URL displayed in your terminal.
+
+### 4. Build for production
 
 ```bash
 npm run build
 ```
 
----
+### 5. Preview the production build
 
-## 🧩 Customize (Quick Guide)
+```bash
+npm run preview
+```
 
-Typical things you’ll want to update:
+## 🎯 Project Goals
 
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
+- Explore interactive 3D web experiences.
+- Build a modern developer portfolio.
+- Practice React, TypeScript and frontend development.
+- Create a portfolio that can be extended with new projects and features.
 
----
+## 🔧 Customization
 
-## ⭐ Support
+The project can be extended by updating its components, application configuration, project data and visual assets.
 
-If you found this useful:
+## 🚀 Deployment
 
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
+The portfolio is deployed using Vercel.
 
----
+Live website: https://portfolio-website-beryl-nine-46.vercel.app/
 
-## 🤝 Connect
+## 👨‍💻 Developer
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+**Debendranath Malik**
 
----
+GitHub: [@Debendra-dotcom](https://github.com/Debendra-dotcom)
 
-## 🏷️ Recommended GitHub Topics (add in repo settings)
+## 🙏 Credits
 
-Add these topics to improve GitHub search visibility:
+This project builds upon an existing open-source portfolio project. The original author's applicable license and copyright notices are retained. Additional customizations and contributions should be documented as they are made.
 
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+## 📄 License
 
----
-
-## 🪪 License
-
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+This project is distributed under the MIT License.
+See [LICENSE](LICENSE) for details.
