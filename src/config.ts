@@ -72,6 +72,15 @@ export const config = {
         image: "",
         description: "AI-focused weather application providing weather information through a modern web interface.",
         link: ""
+    },
+    {
+        id: 4,
+        title: "SOLE 3D",
+        category: "3D E-Commerce Website",
+        technologies: "React, Three.js, 3D Web Design, Vercel",
+        image: "",
+        description: "An interactive 3D shoe shopping experience showcasing sneaker visuals and a modern product-focused interface. Live demo and source code available.",
+        link: "https://sole-3d-pi.vercel.app/"
     }
 ],
     contact: {
